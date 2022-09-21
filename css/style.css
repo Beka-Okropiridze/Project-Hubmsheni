@@ -1,12 +1,47 @@
 @font-face {
     font-family: 'ALK-Rounded';
     src: url(/fonts/alk-rounded-nusx-med-webfont.ttf) format('truetype');
+    src: url(/fonts/alk-rounded-nusx-med-webfont.woff2) format('woff2');
+    src: url(/fonts/alk-rounded-nusx-med-webfont.woff) format('woff');
 }
-.hubmsheni {
-    font-family: 'ALK-Rounded';
-    font-size: 24px;
+
+@font-face {
+    font-family: 'bpg-arial';
+    src: url(/fonts/bpg-arial-caps-webfont.ttf) format('truetype');
+    src: url(/fonts/bpg-arial-caps-webfont.ttf) format('woff');
+    src: url(/fonts/bpg-arial-caps-webfont.ttf) format('woff2');
 }
-.go {
-    font-family: 'ALK-Rounded';
-    font-size: 32px;
+/* header */
+.logo-image{
+    width: 150px;
+    height: 50px;
+    color: white;
+    margin-top: 18px;
+}
+.header-background-image {
+    background-image: url(/images/house1.png);
+    width: 100%;
+    height: 776px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav-li {
+    color: white;
+    display: flex;
+    margin-top: 18px;
+}
+.list-items {
+    margin-left: 50px;
+    font-family: 'bpg-arial';
+}
+.conteiner-header {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.logo-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
