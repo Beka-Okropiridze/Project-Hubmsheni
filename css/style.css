@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ALK-Rounded';
+    src: url(/fonts/alk-rounded-nusx-med-webfont.ttf) format('truetype');
+}
+.hubmsheni {
+    font-family: 'ALK-Rounded';
+    font-size: 24px;
+}
+.go {
+    font-family: 'ALK-Rounded';
+    font-size: 32px;
+}
