@@ -120,6 +120,7 @@
 }
 .nav-list {
     margin-top: 16px;
+    /* display: none; */
 }
 .nav-link {
     color: white;
