@@ -120,7 +120,6 @@
 }
 .nav-list {
     margin-top: 16px;
-    /* display: none; */
 }
 .nav-link {
     color: white;
@@ -153,4 +152,22 @@
 .toggle .line3 {
 	transform: scale(0.9) rotate(45deg) translate(-6px, -4px);
 }
+/* end toggle menu with list items */
 
+/* section on bg with div */
+.sataurebi-bg {
+    margin-top: 290px;
+    margin-left: 80px;
+    color: gray;
+    font-size: 1.34vw;
+    font-family: 'bpg-arial';
+    font-weight: 800;
+    max-width: 600px;
+    width: 100%;
+}
+.h3-satauri-bg {
+    margin-top: 28px;
+}
+.sataurebi-li {
+    list-style: square;
+}
